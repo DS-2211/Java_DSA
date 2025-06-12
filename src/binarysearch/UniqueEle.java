@@ -4,7 +4,7 @@ public class UniqueEle {
 
     public static void main(String[] args) {
         int[] arr = {1,4,7,6,6,4,1};
-        System.out.println(findUnique(arr));
+        System.out.println( findUnique(arr) );
 
     }
 
