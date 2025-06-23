@@ -5,7 +5,7 @@ import java.util.*;
 public class BinarySearch {
     public static void main(String[] args) {
         int target = 32;
-        int[] arr = {1,2,4,6,14,32,34,56,67,88,89};
+        int[] arr = { 1,2,4,6,14,32,34,56,67,88,89};
         int ind = Binarys(target,arr);
         if(ind!=-1) {
             System.out.println("the target is present at "+ind);
