@@ -17,9 +17,6 @@ public class BinarySearch {
         System.out.println("the target is at "+index);
     }
 
-
-
-
     public static int Binarys(int target, int[] arr) {
         int low = 0;
         int high = arr.length-1;
